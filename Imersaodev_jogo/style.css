@@ -1,0 +1,83 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/41/7f/57/417f57037319b1d3f3d75f41baae2e41.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    font-size: 100px;
+  }
+  
+  .description {
+    color: #ffffff;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 60px;
+  }
+  
+  /*.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }*/
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .github-logo {
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    border-radius: 10px;
+  }
+  
+  .btn button {
+    border: 0;
+    color: #ffffff;
+    background: #8096d2;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    font-size: 25px;
+    border-radius: 1.5em;
+    box-shadow: 2px 2px 0 1px #2d3155;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+ }
+  
+  /* .btn button:hover {
+    para o botão ficar maior ao passar o mouse por cima
+    transform: scale(1.1);
+    transition: all 0.5s;
+    opacity: 0.8;
+  }*/
+  
+  .btn button:active {
+    box-shadow: 0 0 0 0 #2d3155, inset 3px 3px 3px #2d3155;
+    transform: translate(3px, 3px);
+  }
+
+
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 350px;
+  }
+  
